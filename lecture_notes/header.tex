@@ -1,0 +1,154 @@
+\documentclass[aspectratio=169,mathserif]{beamer}
+%\documentclass[aspectratio=169,mathserif,handout]{beamer}
+
+\usepackage{graphicx} % Allows including images
+\graphicspath{{./img/}}
+
+\usepackage{epstopdf}
+\epstopdfsetup{outdir=./img/}
+
+\usepackage[utf8]{inputenc}
+%Load useful packages
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{subcaption}
+\usepackage{subfiles}
+\usepackage{url}
+\usepackage{amssymb}
+%
+\usepackage{multirow}
+%
+% align enum description
+% \usepackage{enumitem}
+% refs
+\usepackage[style=authoryear,natbib=true]{biblatex}
+\bibliography{references.bib}
+%
+\usepackage{tikz}
+\usepackage{tikz-cd}
+\usepackage{tikzscale}
+\usetikzlibrary{calc,matrix,chains,positioning,decorations.pathreplacing,decorations.text,arrows,cd}
+
+% overlays
+\tikzset{
+invisible/.style={opacity=0},
+visible on/.style={alt={#1{}{invisible}}},
+alt/.code args={<#1>#2#3}{%
+\alt<#1>{\pgfkeysalso{#2}}{\pgfkeysalso{#3}} % \pgfkeysalso doesn't change the path
+},
+}
+
+% neural nets
+\tikzset{%
+  every neuron/.style={
+circle,
+draw,
+%minimum size=1cm
+  },
+  neuron missing/.style={
+draw=none, 
+scale=1,
+text height=0.333cm,
+execute at begin node=\color{black}$\vdots$
+  },
+}
+
+% infrastructure
+\tikzset{
+vertex/.style = {
+circle,
+fill= black,
+outer sep = 2pt,
+inner sep = 1pt,
+}
+}
+
+
+
+
+%Information to be included in the title page:
+\title{Deep Learning}
+
+\author{Tiago Vieira}
+\institute{Institute of Computing\\Universidade Federal de Alagoas}
+\date{\today}
+%Logo in every slide
+\logo{%
+  \makebox[0.98\paperwidth]{
+\includegraphics[width=0.5cm,keepaspectratio]{../logos/ufal_logo.png}%
+\hfill%\includegraphics[height=1cm,keepaspectratio]{logos/edge_logo.png}%
+\includegraphics[height=0.8cm,keepaspectratio]{../logos/ic_logo.png}%
+  }
+}
+%Contents before every section's starting slide
+\AtBeginSubsection[]
+{
+  \begin{frame}
+\frametitle{Summary}
+\scriptsize
+\tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+
+
+}
+% shape, colour of item, nested item bullets in itemize only
+% \setbeamertemplate{itemize item}[square] \setbeamercolor{itemize item}{bg=blue}
+% \setbeamertemplate{itemize subitem}[circle] \setbeamercolor{itemize subitem}{fg=green}
+% \setbeamertemplate{itemize subsubitem}[triangle] \setbeamercolor{itemize subsubitem}{fg=red}
+% font size of nested and nested-within-nested bulltes in both itemize and enumerate
+% options are \tiny, \small, \scriptsize, \normalsize, \footnotesize, \large, \Large, \LARGE, \huge and \Huge
+\setbeamerfont{itemize/enumerate subbody}{size=\scriptsize} 
+\setbeamerfont{itemize/enumerate subsubbody}{size=\scriptsize}
+% figure numbers
+% \setbeamertemplate{caption}[numbered]
+% blocks style
+\setbeamertemplate{blocks}[rounded][shadow=true]
+
+
+% Hide nav control
+\usenavigationsymbolstemplate{}
+% add numbering
+\addtobeamertemplate{navigation symbols}{}{%
+\usebeamerfont{footline}%
+\usebeamercolor[fg]{footline}%
+\hspace{1em}%
+\insertframenumber/\inserttotalframenumber
+}
+
+% Footnote without number
+\newcommand\blfootnote[1]{%
+\begingroup
+\renewcommand\thefootnote{}\footnote{#1}%
+\addtocounter{footnote}{-1}%
+\endgroup
+}
+
+% items symbols
+\setbeamertemplate{itemize subitem}{-}
+\setbeamertemplate{itemize subsubitem}{-}
+
+%%setting up some useful slide creation commands
+%split slide
+% \newenvironment{splitframe}[5]
+% %[1] ==> 1 parameter passed through {}
+% %[2] ==> 2 parameters passed through {}{}
+% %[4] ==> 4 parameters passed through {}{}{}{}
+% {
+% \begin{frame}{#3}
+% \begin{columns}
+% \column{#1\linewidth}
+% \centering
+% #4
+% \column{#2\linewidth}
+% \centering
+% #5
+% \end{columns}
+% \centering
+% \vspace{\baselineskip} % adds one line space
+% }
+% %Inside the first pair of braces (ABOVE) is set what your new environment will do before the text within, then inside the second pair of braces (BELOW) declare what your new environment will do after the text. Note second pair can be empty braces too.
+% {
+% \end{frame}
+
+
+% }
+
