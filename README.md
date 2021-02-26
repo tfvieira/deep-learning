@@ -1,5 +1,6 @@
-# deep-learning
+# Deep Learning
 
+Course about Deep Learning from Institute of Computing at the Federal University of Alagoas.
 
 # Assignments
 
