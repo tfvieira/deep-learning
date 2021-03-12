@@ -79,7 +79,9 @@ def plot_data(X, y, w, ind = 0):
 #%%
 
 # Initialize weigths
-w = np.random.random((3,1))
+# w = np.zeros((3,1))# np.random.random((3,1))
+w = 10. * np.random.random((3,1))
+w = w/ np.linalg.norm(w)
 epochs = range(200)
 eta = 0.02
 

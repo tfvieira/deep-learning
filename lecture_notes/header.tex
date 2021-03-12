@@ -1,6 +1,7 @@
 \documentclass[aspectratio=169,mathserif]{beamer}
 %\documentclass[aspectratio=169,mathserif,handout]{beamer}
 
+
 \usepackage{graphicx} % Allows including images
 \graphicspath{{./img/}}
 
@@ -16,6 +17,7 @@
 \usepackage{amssymb}
 %
 \usepackage{multirow}
+\usepackage{mathrsfs} 
 %
 % align enum description
 % \usepackage{enumitem}
@@ -72,13 +74,13 @@ inner sep = 1pt,
 \institute{Institute of Computing\\Universidade Federal de Alagoas}
 \date{\today}
 %Logo in every slide
-\logo{%
-  \makebox[0.98\paperwidth]{
-\includegraphics[width=0.5cm,keepaspectratio]{../logos/ufal_logo.png}%
-\hfill%\includegraphics[height=1cm,keepaspectratio]{logos/edge_logo.png}%
-\includegraphics[height=0.8cm,keepaspectratio]{../logos/ic_logo.png}%
-  }
-}
+%\logo{%
+%  \makebox[0.98\paperwidth]{
+%\includegraphics[width=0.5cm,keepaspectratio]{../logos/ufal_logo.png}%
+%\hfill%\includegraphics[height=1cm,keepaspectratio]{logos/edge_logo.png}%
+%\includegraphics[height=0.8cm,keepaspectratio]{../logos/ic_logo.png}%
+%  }
+%}
 %Contents before every section's starting slide
 \AtBeginSubsection[]
 {
@@ -107,12 +109,12 @@ inner sep = 1pt,
 % Hide nav control
 \usenavigationsymbolstemplate{}
 % add numbering
-\addtobeamertemplate{navigation symbols}{}{%
-\usebeamerfont{footline}%
-\usebeamercolor[fg]{footline}%
-\hspace{1em}%
-\insertframenumber/\inserttotalframenumber
-}
+%\addtobeamertemplate{navigation symbols}{}{%
+%\usebeamerfont{footline}%
+%\usebeamercolor[fg]{footline}%
+%\hspace{1em}%
+%\insertframenumber/\inserttotalframenumber
+%}
 
 % Footnote without number
 \newcommand\blfootnote[1]{%
@@ -152,3 +154,9 @@ inner sep = 1pt,
 
 % }
 
+%\usepackage{calligra}
+%\DeclareMathAlphabet{\mathcalligra}{T1}{calligra}{m}{n}
+
+
+\usepackage{svg}
+\usepackage{PSTricks}
