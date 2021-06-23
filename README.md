@@ -2,20 +2,6 @@
 
 Course about Deep Learning from Institute of Computing at the Federal University of Alagoas.
 
-# Checklist
-1. Lecture 1.
-    1. Course presentation.
-    1. Lecture slides [Deep Learning Applications](https://github.com/tfvieira/deep-learning/tree/main/lecture_notes/deep-learning-applications)
-1. Lecture 2.
-    1. Lecture slides [Perceptron](https://github.com/tfvieira/deep-learning/tree/main/lecture_notes/perceptron).
-    1. Code [Perceptron](https://github.com/tfvieira/deep-learning/blob/main/src/simple_perceptron/simple_perceptron.py).
-    1. Lecture slide [XOR Problem](https://github.com/tfvieira/deep-learning/tree/main/lecture_notes/xor-problem).
-    1. Code [TensorFlow playground](https://github.com/tensorflow/playground).
-
-# Assignments
-
-1. [Questions about NumPy arrays and manipulations](https://github.com/tfvieira/deep-learning/blob/main/src/numpy_tutorial/readme.md)
-
 # References
 ## Books
 1. [Francois Chollet, Deep Learning with Python](https://www.amazon.com.br/Deep-Learning-Python-Francois-Chollet/dp/1617294438), 2018.
