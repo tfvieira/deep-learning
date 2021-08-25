@@ -15,19 +15,23 @@ print(mpl.__name__ + " version = " + mpl.__version__)
 
 #%% Generate random data
 np.random.seed(1)
+
 xlim = (-10, 10)
 ylim = (-10, 10)
 step = 0.02
 
+#%%
 N = 50
+
 c1 = np.random.randn(N,2) + np.array([-1, 0])
 c2 = np.random.randn(N,2) + np.array([3,5])
 
 X = np.vstack((c1,c2))
 y = np.vstack((-1*np.ones((N,1)), np.ones((N,1))))
 
+#%%
 def sgn(x):
-    return (1 if x>=0 else -1)
+    return (1 if x >= 0 else -1)
 
 def predict(w, x):
     return sgn(np.dot(w.T, x))
@@ -48,7 +52,7 @@ def get_line(w):
 
 def plot_data(X, y, w, ind = 0):
     
-    fig = plt.figure()
+    fig = plt.figure(figsize=(8,8))
     ax = fig.add_subplot(1, 1, 1)
 
     plt.plot(X[y.ravel() ==  1,0], X[y.ravel() ==  1,1], 'go')
@@ -72,9 +76,12 @@ def plot_data(X, y, w, ind = 0):
     ax.yaxis.set_ticks_position('left')
     plt.show()
 
+#%%
 # for i in range(10):
-#     w = np.array([i, 2, -i])
-# plot_data(X, y, w, i)
+i = 5
+w = np.array([i, 1, 1])
+
+plot_data(X, y, w, i)
 
 #%%
 
@@ -82,8 +89,9 @@ def plot_data(X, y, w, ind = 0):
 # w = np.zeros((3,1))# np.random.random((3,1))
 w = 10. * np.random.random((3,1))
 w = w/ np.linalg.norm(w)
+
 epochs = range(200)
-eta = 0.02
+eta = .2
 
 for epoch in epochs:
   for i in range(X.shape[0]):

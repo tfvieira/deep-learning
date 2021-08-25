@@ -10,3 +10,19 @@ Course about Deep Learning from Institute of Computing at the Federal University
 1. [Aurelien Geron -- Hands–On Machine Learning with Scikit–Learn and TensorFlow 2e](https://www.amazon.com.br/s?i=stripbooks&rh=p_27%3AAurelien+Geron&s=relevancerank&text=Aurelien+Geron&ref=dp_byline_sr_book_1), [Github repository](https://github.com/ageron/handson-ml2), 2019.
 1. [Programa de cursos integrados Aprendizagem profunda](https://www.coursera.org/specializations/deep-learning)
 1. [Dive Into Deep Learning](https://d2l.ai/index.html).
+
+## Tools
+
+- [TensorFlow](https://www.tensorflow.org/).
+- [NumPy](https://numpy.org/).
+- [OpenCV](https://opencv.org/).
+
+
+- [QuickDA](https://github.com/sid-the-coder/QuickDA).
+- [Eli5](https://github.com/TeamHG-Memex/eli5)
+    - [readthedocs.io](https://eli5.readthedocs.io/en/latest/overview.html#features).
+- [OpenDatasets](https://github.com/JovianML/opendatasets).
+- [Comma](https://github.com/jlumbroso/comma).
+
+
+
