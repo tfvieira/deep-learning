@@ -10,7 +10,7 @@
 
 [State-of-the-Art](#State-of-the-Art).
 
-[Semesters](#Previous Semesters).
+[Semesters](#Semesters).
 
 [References](#References)
 
