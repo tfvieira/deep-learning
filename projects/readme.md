@@ -155,7 +155,7 @@ The state-of-the-art **is not** a list of references, but a comprehensive analys
 - group the articles by main advancements, from a conceptual viewpoint.
   A good work will make your contribution clear.
 
-# Previous Semesters
+# Semesters
 
 ## 2020.2
 
