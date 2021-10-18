@@ -159,7 +159,16 @@ The state-of-the-art **is not** a list of references, but a comprehensive analys
 
 ## 2020.2
 
-- Under construction.
+- [title](link) [github](https://github.com/DavidAlexandreTS/Deep-learning-projects/tree/main/Deep-learning-Project) [video](https://drive.google.com/file/d/1N0dfGaTUipol1QIe-yYWiARucrRFeoQ4/view?usp=sharing)
+- [YCgCr Leaf Segmentation](https://github.com/EduardoLisboa/YCgCr_leaf_segmentation)
+- [One-Shot Recognition of Manufacturing Defects in Steel Surfaces](https://github.com/ghastcmd/one-shot-steel-surfaces)
+- https://github.com/ghastcmd/one-shot-steel-surfaces.
+- [Implementação de Rede Neural Convolucional para classificação de imagens de Raio-X de tórax como: COVID, Pneumonia ou Normal.](https://github.com/tarcisiolf0/covid19_dl_project) [video](https://www.youtube.com/watch?v=8UGl7ZgCr2Y)
+- [Deep Learning Based Unsupervised and Semi-supervised Classification for Keratoconus.](https://github.com/NaldoHoracio/CornealAIPaper).
+- [EfficientNet V1 fine-tuning para classificação de radiografias COVID19](https://github.com/mrr00b00t/efn-siim-covid19) [video](https://www.youtube.com/watch?v=1xGZjrfM4rk).
+- [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://github.com/Roger987/Deep-Learning).
+- [github](https://github.com/MafraV/DL-2020.2.git) [video](https://drive.google.com/file/d/109aCxOg7CNCrXN-mZg48lUcLbf6U3JT9/view?usp=sharing).
+- [Graph Attention Network](https://github.com/brunocvs7/neural_nets_DL) [video](https://www.youtube.com/watch?v=aOOvVX29V2Q).
 
 ## 2020.1
 
