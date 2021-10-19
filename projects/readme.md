@@ -59,7 +59,7 @@ In a nutshell, we propose the replication of some recent work divulged in a webs
 
 5. Improve the original paper with a new proposal.
 
-6. Deliver results and final presentation.
+6. Deliver report and final presentation.
 
 # Schedule
 
