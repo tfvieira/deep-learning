@@ -18,7 +18,8 @@ Course about Deep Learning from Institute of Computing at the Federal University
 - [PyTorch](https://pytorch.org/).
 - [NumPy](https://numpy.org/).
 - [OpenCV](https://opencv.org/).
-
+- [Google Colaboratory](https://colab.research.google.com/).
+- [Anaconda Navigator](https://anaconda.org/anaconda/anaconda-navigator).
 
 - [QuickDA](https://github.com/sid-the-coder/QuickDA).
 - [Eli5](https://github.com/TeamHG-Memex/eli5)
