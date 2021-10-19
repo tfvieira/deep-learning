@@ -14,6 +14,8 @@ Course about Deep Learning from Institute of Computing at the Federal University
 ## Tools
 
 - [TensorFlow](https://www.tensorflow.org/).
+- [SciKit-Learn](https://scikit-learn.org/stable/).
+- [PyTorch](https://pytorch.org/).
 - [NumPy](https://numpy.org/).
 - [OpenCV](https://opencv.org/).
 
