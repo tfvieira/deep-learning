@@ -24,7 +24,7 @@ step = 0.02
 N = 50
 
 c1 = np.random.randn(N,2) + np.array([-1, 0])
-c2 = np.random.randn(N,2) + np.array([3,5])
+c2 = np.random.randn(N,2) + np.array([ 3, 5])
 
 X = np.vstack((c1,c2))
 y = np.vstack((-1*np.ones((N,1)), np.ones((N,1))))
