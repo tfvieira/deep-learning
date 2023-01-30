@@ -3,7 +3,7 @@
 Course about Deep Learning from Institute of Computing at the Federal University of Alagoas.
 
 # 2022-2
-
+- Google Classroom: [l6mqtw6](https://classroom.google.com/c/NTg3MzA0OTE0Mzgw?cjc=l6mqtw6).
 - [schedule](https://docs.google.com/spreadsheets/d/1VDWdZzUZELKAyGlEghDPtEmlzUlxEfJmx1Y_o_ibkO0/edit?usp=sharing).
 
 # References
