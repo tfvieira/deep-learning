@@ -2,10 +2,6 @@
 
 Course about Deep Learning from Institute of Computing at the Federal University of Alagoas.
 
-# 2022-2
-- Google Classroom: [l6mqtw6](https://classroom.google.com/c/NTg3MzA0OTE0Mzgw?cjc=l6mqtw6).
-- [schedule](https://docs.google.com/spreadsheets/d/1VDWdZzUZELKAyGlEghDPtEmlzUlxEfJmx1Y_o_ibkO0/edit?usp=sharing).
-
 # References
 ## Books
 1. [Francois Chollet, Deep Learning with Python](https://www.amazon.com.br/Deep-Learning-Python-Francois-Chollet/dp/1617294438), [Github repository](https://github.com/fchollet/deep-learning-with-python-notebooks) 2018.
@@ -16,20 +12,12 @@ Course about Deep Learning from Institute of Computing at the Federal University
 
 ## Tools
 
-- [TensorFlow](https://www.tensorflow.org/).
 - [SciKit-Learn](https://scikit-learn.org/stable/).
+- [TensorFlow](https://www.tensorflow.org/).
 - [PyTorch](https://pytorch.org/).
 - [NumPy](https://numpy.org/).
 - [OpenCV](https://opencv.org/).
 - [Google Colaboratory](https://colab.research.google.com/).
 - [Anaconda Navigator](https://anaconda.org/anaconda/anaconda-navigator).
 - [Python VirtualEnv](https://pypi.org/project/virtualenv/).
-
-- [QuickDA](https://github.com/sid-the-coder/QuickDA).
-- [Eli5](https://github.com/TeamHG-Memex/eli5)
-    - [readthedocs.io](https://eli5.readthedocs.io/en/latest/overview.html#features).
 - [OpenDatasets](https://github.com/JovianML/opendatasets).
-- [Comma](https://github.com/jlumbroso/comma).
-
-
-
