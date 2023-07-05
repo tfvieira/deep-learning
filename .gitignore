@@ -198,6 +198,10 @@ sympy-plots-for-*.tex/
 *.pytxcode
 pythontex-files-*/
 
+# Jupyter Notebooks
+*.ipynb_checkpoints
+*.virtual_documents
+
 # tcolorbox
 *.listing
 
