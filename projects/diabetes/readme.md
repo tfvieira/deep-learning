@@ -14,6 +14,8 @@ Train a Logistic Regression classifier to predict whether and individual is like
 
 ## Train a first classifier
 - Use SciKit-Learn Logistic Regression classifier.
+- Split the dataset into 80% (for training) and 20% for testing.
+- Use 10 fold cross validation method.
 
 ## Train a second classifier
 1. Use Neural Networks with Tensorflow with a Logistic Regression mindset.
